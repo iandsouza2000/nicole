@@ -61,3 +61,28 @@
   font-size: 36px;
   font-weight: 500;
 }
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 0 20px;
+  }
+  .mainText {
+    font-size: 20px;
+    margin-bottom: 18px;
+  }
+  .subText {
+    font-size: 14px;
+  }
+  .categoriesContainer {
+    grid-row-gap: 20px;
+    grid-column-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .category {
+    width: 150px;
+    height: 300px;
+  }
+  .categoryName {
+    font-size: 20px;
+  }
+}
