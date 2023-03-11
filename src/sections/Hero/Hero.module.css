@@ -1,0 +1,35 @@
+.container {
+  background-color: #048a52;
+  color: white;
+  height: 610px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainText {
+  font-size: 54px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 24px;
+}
+.subText {
+  font-size: 21px;
+}
+
+.buttons {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 40px;
+}
+.buttons button {
+  padding: 15px 32px;
+  width: 200px;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  color: var(--primary);
+  font-weight: 600;
+}
