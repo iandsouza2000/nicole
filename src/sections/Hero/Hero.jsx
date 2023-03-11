@@ -1,9 +1,13 @@
 import React from "react";
 import styles from "./Hero.module.css";
+import windmill from "../../assets/windmill.mp4";
 
 const Hero = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="hero">
+      <video className={styles.video} autoPlay loop muted>
+        <source src={windmill} type="video/mp4" />
+      </video>
       <div>
         <h1 className={styles.mainText}>
           Turning the world’s waste into resource

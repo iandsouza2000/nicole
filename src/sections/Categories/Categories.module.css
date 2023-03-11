@@ -21,6 +21,9 @@
   margin: 40px auto;
 }
 
+.categoryContainer {
+  overflow: hidden;
+}
 .category {
   width: 300px;
   height: 400px;
@@ -33,6 +36,8 @@
   z-index: 1;
   border-radius: 5px;
   background-size: cover;
+  transition: 0.5s all ease-in-out;
+  cursor: pointer;
 }
 
 .category::before {
@@ -46,6 +51,10 @@
   opacity: 0.6;
   z-index: -1;
   background-color: black;
+}
+
+.category:hover {
+  transform: scale(1.1);
 }
 
 .categoryName {

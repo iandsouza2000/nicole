@@ -35,7 +35,7 @@ const categories = [
 
 const Categories = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="categories">
       <div className={styles.mainText}>
         As accurate as a human eye. Sorts limitless classes of waste
       </div>
@@ -46,13 +46,15 @@ const Categories = () => {
 
       <div className={styles.categoriesContainer}>
         {categories.map((item) => (
-          <div
-            className={styles.category}
-            style={{
-              backgroundImage: `url(${item.image})`,
-            }}
-          >
-            <div className={styles.categoryName}>{item.name}</div>
+          <div className={styles.categoryContainer}>
+            <div
+              className={styles.category}
+              style={{
+                backgroundImage: `url(${item.image})`,
+              }}
+            >
+              <div className={styles.categoryName}>{item.name}</div>
+            </div>
           </div>
         ))}
       </div>

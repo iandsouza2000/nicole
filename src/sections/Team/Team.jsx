@@ -22,7 +22,7 @@ const members = [
 
 const Team = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="teams">
       <div className={styles.title}>Meet The Team</div>
 
       <div className={styles.subContainer}>
