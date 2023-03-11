@@ -12,7 +12,7 @@
   display: flex;
   justify-content: space-around;
   width: 80%;
-  margin: 60px auto;
+  margin: 40px auto;
 }
 
 .member img {
@@ -24,4 +24,5 @@
 
 .member {
   font-size: 22px;
+  font-weight: 600;
 }
